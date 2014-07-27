@@ -316,8 +316,7 @@ FORM_BLOCKS.Object = function() {
 	this.moveTo = function(x, y) {
 		this.x = x;
 		this.y = y;
-		this.domElement.style.left = x + 'px';
-		this.domElement.style.top = y + 'px';
+		this.domElement.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
 	}
 
 	this.setZ = function(index) {

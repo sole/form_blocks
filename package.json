@@ -1,0 +1,34 @@
+{
+  "name": "form_blocks",
+  "version": "0.0.1",
+  "description": "an experiment with form elements",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sole/form_blocks"
+  },
+  "keywords": [
+    "blocks",
+    "games",
+    "bad physics"
+  ],
+  "author": "sole",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/sole/form_blocks/issues"
+  },
+  "homepage": "https://github.com/sole/form_blocks",
+  "dependencies": {
+    "gulp": "^3.8.6",
+    "gulp-concat": "^2.3.4",
+    "gulp-html-replace": "^1.1.0",
+    "gulp-jshint": "^1.8.0",
+    "gulp-minify-css": "^0.3.7",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.1"
+  }
+}
